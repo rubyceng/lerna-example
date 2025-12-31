@@ -1,0 +1,463 @@
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:31.341Z - Started listening on: /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/b12835bda6918f1224e1/d.sock
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:31.344Z - [WATCHER]: Subscribed to changes within: /Users/ruby/Work/OpenSource/lerna-example (native)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:31.344Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:31.846Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:31.846Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:31.846Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.077Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.078Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.078Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.079Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.080Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.080Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.080Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.080Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.080Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.080Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.083Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.093Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.093Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.093Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.093Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.093Z - Time taken for 'total for creating and serializing project graph' 12.948167000000012ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.094Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.094Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 13. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.097Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.097Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.097Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.097Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.097Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.097Z - Done responding to the client handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.098Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:32.106Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:38.211Z - [NX-CONSOLE]: Successfully pulled latest Nx to /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/tmp-83050-voiownqud1Gc
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:38.317Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::install: Detected editor: VSCode
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: code --list-extensions
+DEBUG nx::native::ide::install: Nx Console extension is not installed
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:38.604Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: true
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.252Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.253Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.253Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.263Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.263Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.263Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.263Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.265Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.265Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.265Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.265Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.265Z - Time taken for 'total for creating and serializing project graph' 1.8491670000003069ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.266Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.266Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.268Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.268Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.268Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.268Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.268Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.268Z - Done responding to the client handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.268Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:02:55.276Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.693Z - [WATCHER]: _tmp_84651_ac87314452eccef9adb4afc9939fd99b was deleted
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.693Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.694Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.795Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.795Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.795Z - [REQUEST]: _tmp_84651_ac87314452eccef9adb4afc9939fd99b
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.811Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.811Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.811Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:26.812Z - Time taken for 'hash changed files from watcher' 0.1245000000053551ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:31.289Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:31.301Z - [WATCHER]: Stopping the watcher for /Users/ruby/Work/OpenSource/lerna-example (sources)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:31.303Z - [WATCHER]: Stopping the watcher for /Users/ruby/Work/OpenSource/lerna-example (outputs)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:31.304Z - [NX-CONSOLE]: Cleaning up latest Nx installation from /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/tmp-83050-voiownqud1Gc
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:06:31.304Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.155Z - Started listening on: /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/5402bc9e8d7a87709941/d.sock
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.159Z - [WATCHER]: Subscribed to changes within: /Users/ruby/Work/OpenSource/lerna-example (native)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.159Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.675Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.675Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.675Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.905Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.906Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.907Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.908Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.908Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.908Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.909Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.909Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.913Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.913Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.913Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.913Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.914Z - Time taken for 'total for creating and serializing project graph' 4.560582999999951ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.915Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.915Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 4. Response time: 2.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.918Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.918Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.919Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.919Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.919Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.919Z - Done responding to the client handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.919Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.933Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.933Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.933Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.933Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.935Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.935Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.935Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.935Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.935Z - Time taken for 'total for creating and serializing project graph' 1.6908329999999978ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.935Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.936Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.938Z - Received raw message of length 360
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.938Z - Received json message of type PRE_TASKS_EXECUTION
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.939Z - Serializing response for PRE_TASKS_EXECUTION message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.939Z - Responding to PRE_TASKS_EXECUTION message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.939Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.939Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.939Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.939Z - Time taken for 'preTasksExecution' 0.2883749999999736ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.972Z - Received raw message of length 5239
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.972Z - Received json message of type HASH_TASKS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.972Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.975Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 986.167µs - processed 1 tasks (setup: 854.584µs, parallel_planning: 111.458µs)
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "16722851342459420272" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "16221781278240805423" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Hash Value: "2014596255554666119"
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 1.454291ms - processed 1 plans (setup: 114.416µs, hashing: 1.339042ms, assembly: 238.083µs)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.981Z - Serializing response for HASH_TASKS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.981Z - Responding to HASH_TASKS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.981Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.981Z - Time taken for 'write cache' 2.2937500000000455ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.981Z - Done responding to the client handleHashTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:06.981Z - Handled json message HASH_TASKS. Handling time: 9. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:07.197Z - Received raw message of length 101
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:07.197Z - Received json message of type GET_ESTIMATED_TASK_TIMINGS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:07.219Z - Serializing response for GET_ESTIMATED_TASK_TIMINGS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:07.219Z - Responding to GET_ESTIMATED_TASK_TIMINGS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:07.219Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:07.219Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:07.219Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 22. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:08.996Z - [WATCHER]: 0 file(s) created or restored, 6 file(s) modified, 0 file(s) deleted
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:08.996Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:08.996Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.097Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.097Z - [REQUEST]: packages/admin/dist/main.d.ts,packages/admin/dist/app.controller.d.ts,packages/admin/dist/app.controller.js,packages/admin/dist/app.module.js,packages/admin/dist/app.module.d.ts,packages/admin/dist/main.js
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.097Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.114Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.114Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.114Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.114Z - Time taken for 'hash changed files from watcher' 0.3061250000000655ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.484Z - Received raw message of length 171
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.484Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.486Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.486Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.486Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.486Z - Done responding to the client recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.486Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.490Z - Received raw message of length 202
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.491Z - Received json message of type RECORD_TASK_RUNS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.491Z - Serializing response for RECORD_TASK_RUNS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.491Z - Responding to RECORD_TASK_RUNS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.491Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.491Z - Done responding to the client handleRecordTaskRuns
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.491Z - Handled json message RECORD_TASK_RUNS. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.492Z - Received raw message of length 59
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.492Z - Received json message of type GET_FLAKY_TASKS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.492Z - Serializing response for GET_FLAKY_TASKS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.492Z - Responding to GET_FLAKY_TASKS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.492Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.492Z - Done responding to the client handleGetFlakyTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.492Z - Handled json message GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.494Z - Received raw message of length 15007
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.494Z - Received json message of type POST_TASKS_EXECUTION
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.495Z - Serializing response for POST_TASKS_EXECUTION message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.495Z - Responding to POST_TASKS_EXECUTION message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.495Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.495Z - Done responding to the client handleRunPostTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.495Z - Handled json message POST_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.495Z - Time taken for 'postTasksExecution' 0.13445799999999508ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.501Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.544Z - [WATCHER]: 0 file(s) created or restored, 6 file(s) modified, 0 file(s) deleted
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.545Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.545Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.745Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.745Z - [REQUEST]: packages/admin/dist/main.d.ts,packages/admin/dist/main.js,packages/admin/dist/app.controller.js,packages/admin/dist/app.module.d.ts,packages/admin/dist/app.module.js,packages/admin/dist/app.controller.d.ts
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.745Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.755Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.755Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.755Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:09.755Z - Time taken for 'hash changed files from watcher' 0.2543330000003152ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:12.940Z - [NX-CONSOLE]: Successfully pulled latest Nx to /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/tmp-99062-esEb20jSASs5
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:13.053Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::install: Detected editor: VSCode
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: code --list-extensions
+DEBUG nx::native::ide::install: Nx Console extension is not installed
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:30:13.317Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: true
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:03.588Z - [WATCHER]: .gitignore was modified
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:03.589Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:03.589Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:03.589Z - [WATCHER]: Stopping the watcher for /Users/ruby/Work/OpenSource/lerna-example (sources)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:03.589Z - [WATCHER]: Stopping the watcher for /Users/ruby/Work/OpenSource/lerna-example (outputs)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:03.592Z - [NX-CONSOLE]: Cleaning up latest Nx installation from /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/tmp-99062-esEb20jSASs5
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:03.592Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:52.475Z - Started listening on: /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/f4d1b4f7dd2d99341366/d.sock
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:52.477Z - [WATCHER]: Subscribed to changes within: /Users/ruby/Work/OpenSource/lerna-example (native)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:52.478Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.021Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.021Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.021Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.216Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.218Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.218Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.219Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.220Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.220Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.220Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.220Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.222Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.222Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.222Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.222Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.222Z - Time taken for 'total for creating and serializing project graph' 2.074124999999981ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.225Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.225Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 3.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.228Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.229Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.229Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.229Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.229Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.229Z - Done responding to the client handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.229Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.243Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.243Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.243Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.243Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.245Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.245Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.245Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.245Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.245Z - Time taken for 'total for creating and serializing project graph' 1.9642089999999826ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.246Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.246Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.248Z - Received raw message of length 360
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.248Z - Received json message of type PRE_TASKS_EXECUTION
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.249Z - Serializing response for PRE_TASKS_EXECUTION message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.249Z - Responding to PRE_TASKS_EXECUTION message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.249Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.249Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.249Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.249Z - Time taken for 'preTasksExecution' 0.2580000000000382ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.281Z - Received raw message of length 6087
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.281Z - Received json message of type HASH_TASKS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.281Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.283Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 1.0625ms - processed 2 tasks (setup: 700.709µs, parallel_planning: 358.5µs)
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "8448071369985037046" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "16221781278240805423" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Hash Value: "17248089831237685018"
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 6.37325ms - processed 2 plans (setup: 120.709µs, hashing: 6.2515ms, assembly: 230.542µs)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.294Z - Serializing response for HASH_TASKS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.294Z - Responding to HASH_TASKS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.294Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.294Z - Time taken for 'write cache' 1.7323330000000396ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.294Z - Done responding to the client handleHashTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.294Z - Handled json message HASH_TASKS. Handling time: 13. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.351Z - Received raw message of length 154
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.351Z - Received json message of type GET_ESTIMATED_TASK_TIMINGS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.375Z - Serializing response for GET_ESTIMATED_TASK_TIMINGS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.375Z - Responding to GET_ESTIMATED_TASK_TIMINGS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.375Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.375Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:53.375Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 23. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:54.993Z - Received raw message of length 175
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:54.993Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:54.996Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:54.996Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:54.996Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:54.997Z - Done responding to the client recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:54.997Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.042Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.552Z - Received raw message of length 172
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.552Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.556Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.556Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.556Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.556Z - Done responding to the client recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.556Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 4. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.560Z - Received raw message of length 366
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.560Z - Received json message of type RECORD_TASK_RUNS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.561Z - Serializing response for RECORD_TASK_RUNS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.561Z - Responding to RECORD_TASK_RUNS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.561Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.561Z - Done responding to the client handleRecordTaskRuns
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.561Z - Handled json message RECORD_TASK_RUNS. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.562Z - Received raw message of length 82
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.562Z - Received json message of type GET_FLAKY_TASKS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.562Z - Serializing response for GET_FLAKY_TASKS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.562Z - Responding to GET_FLAKY_TASKS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.562Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.562Z - Done responding to the client handleGetFlakyTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.562Z - Handled json message GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.564Z - Received raw message of length 15916
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.564Z - Received json message of type POST_TASKS_EXECUTION
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.564Z - Serializing response for POST_TASKS_EXECUTION message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.564Z - Responding to POST_TASKS_EXECUTION message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.564Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.564Z - Done responding to the client handleRunPostTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.564Z - Handled json message POST_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.565Z - Time taken for 'postTasksExecution' 0.14554100000032122ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.570Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:55.612Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:58.860Z - [NX-CONSOLE]: Successfully pulled latest Nx to /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/tmp-99435-aaSSFVmmgtl4
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:58.966Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::install: Detected editor: VSCode
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: code --list-extensions
+DEBUG nx::native::ide::install: Nx Console extension is not installed
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:31:59.263Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: true
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.576Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.576Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.577Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.587Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.587Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.587Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.587Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.590Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.590Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.590Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.590Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.590Z - Time taken for 'total for creating and serializing project graph' 2.408417000006011ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.591Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.591Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 3. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.596Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.596Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.596Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.596Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.596Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.597Z - Done responding to the client handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.597Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.611Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.611Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.611Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.611Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.613Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.613Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.613Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.613Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.613Z - Time taken for 'total for creating and serializing project graph' 1.9095000000015716ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.614Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.614Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - Received raw message of length 360
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - Received json message of type PRE_TASKS_EXECUTION
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - Serializing response for PRE_TASKS_EXECUTION message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - Responding to PRE_TASKS_EXECUTION message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.616Z - Time taken for 'preTasksExecution' 0.05645899999944959ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.642Z - Received raw message of length 6087
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.642Z - Received json message of type HASH_TASKS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.642Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.644Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 840.667µs - processed 2 tasks (setup: 717.75µs, parallel_planning: 120.583µs)
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 936.875µs - processed 2 plans (setup: 121.791µs, hashing: 814.334µs, assembly: 232µs)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.646Z - Serializing response for HASH_TASKS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.646Z - Responding to HASH_TASKS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.646Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.646Z - Time taken for 'write cache' 1.7792910000061966ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.646Z - Done responding to the client handleHashTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.646Z - Handled json message HASH_TASKS. Handling time: 4. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.691Z - Received raw message of length 154
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.691Z - Received json message of type GET_ESTIMATED_TASK_TIMINGS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.692Z - Serializing response for GET_ESTIMATED_TASK_TIMINGS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.692Z - Responding to GET_ESTIMATED_TASK_TIMINGS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.692Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.692Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.692Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.695Z - Received raw message of length 176
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.695Z - Received json message of type OUTPUTS_HASHES_MATCH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.697Z - Serializing response for OUTPUTS_HASHES_MATCH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.697Z - Responding to OUTPUTS_HASHES_MATCH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.697Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.697Z - Done responding to the client outputsHashesMatch
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.697Z - Handled json message OUTPUTS_HASHES_MATCH. Handling time: 2. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.698Z - Received raw message of length 173
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.698Z - Received json message of type OUTPUTS_HASHES_MATCH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.699Z - Serializing response for OUTPUTS_HASHES_MATCH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.699Z - Responding to OUTPUTS_HASHES_MATCH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.699Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.699Z - Done responding to the client outputsHashesMatch
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.699Z - Handled json message OUTPUTS_HASHES_MATCH. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.699Z - Received raw message of length 175
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.699Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.701Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.701Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.701Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.701Z - Done responding to the client recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.701Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.702Z - Received raw message of length 172
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.702Z - Received json message of type RECORD_OUTPUTS_HASH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.705Z - Serializing response for RECORD_OUTPUTS_HASH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.705Z - Responding to RECORD_OUTPUTS_HASH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.705Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.705Z - Done responding to the client recordOutputsHash
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.705Z - Handled json message RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.707Z - Received raw message of length 402
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.707Z - Received json message of type RECORD_TASK_RUNS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Serializing response for RECORD_TASK_RUNS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Responding to RECORD_TASK_RUNS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Done responding to the client handleRecordTaskRuns
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Handled json message RECORD_TASK_RUNS. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Received raw message of length 82
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Received json message of type GET_FLAKY_TASKS
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Serializing response for GET_FLAKY_TASKS message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - Responding to GET_FLAKY_TASKS message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.708Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.709Z - Done responding to the client handleGetFlakyTasks
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.709Z - Handled json message GET_FLAKY_TASKS. Handling time: 0. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - Received raw message of length 15810
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - Received json message of type POST_TASKS_EXECUTION
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - Serializing response for POST_TASKS_EXECUTION message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - Responding to POST_TASKS_EXECUTION message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - Done responding to the client handleRunPostTasksExecution
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - Handled json message POST_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.710Z - Time taken for 'postTasksExecution' 0.06750000000465661ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:32:47.714Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.631Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.631Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.631Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.638Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.638Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.638Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.638Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.642Z - Wrote project graph cache to /Users/ruby/Work/OpenSource/lerna-example/.nx/workspace-data/project-graph.json
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.642Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.642Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.642Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.642Z - Time taken for 'total for creating and serializing project graph' 3.3532500000146683ms
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.643Z - Done responding to the client project-graph
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.643Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 4. Response time: 1.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.647Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.647Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.647Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.647Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.647Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.647Z - Done responding to the client handleContextFileData
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.647Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:34:15.673Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:35:47.513Z - [WATCHER]: .gitignore was modified
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:35:47.513Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:35:47.514Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:35:47.514Z - [WATCHER]: Stopping the watcher for /Users/ruby/Work/OpenSource/lerna-example (sources)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:35:47.514Z - [WATCHER]: Stopping the watcher for /Users/ruby/Work/OpenSource/lerna-example (outputs)
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:35:47.516Z - [NX-CONSOLE]: Cleaning up latest Nx installation from /private/var/folders/55/jbnq93ld1773nchlzs5zfvxr0000gn/T/tmp-99435-aaSSFVmmgtl4
+[NX v22.3.3 Daemon Server] - 2025-12-31T07:35:47.516Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
