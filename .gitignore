@@ -7,3 +7,7 @@ dist/
 .idea/
 coverage/
 *.log
+
+# Nx cache and logs
+.nx/
+.nx
