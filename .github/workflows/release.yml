@@ -1,0 +1,53 @@
+name: Release Library
+
+on:
+  push:
+    branches: [ main ]
+    # 忽略掉由机器人自动生成的 commit，防止死循环
+    paths-ignore:
+      - '**/CHANGELOG.md'
+      - '**/package.json'
+
+jobs:
+  publish-npm:
+    # 只有当 commit 信息不包含 release 关键词时才运行
+    if: "!contains(github.event.head_commit.message, 'chore(release):')"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 需要权限回写 git tag
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          cache: 'pnpm'
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Configure Git User
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # === 核心步骤 ===
+      # 1. lerna version: 改版本号，打 Tag，推送到 Git
+      # 2. lerna publish: 把更新后的 common 包发布到 NPM
+      - name: Version and Publish
+        run: |
+          npx lerna version --yes --no-private --conventional-commits --create-release github --message "chore(release): publish %s"
+          npx lerna publish from-git --yes
+        env:
+          # 用于 NPM 身份验证
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # 用于 Git 推送
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
