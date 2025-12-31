@@ -1,6 +1,6 @@
 {
   "name": "@rubyceng/admin",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.3-alpha.0",
   "private": true,
   "scripts": {
     "start": "nest start --watch",
@@ -12,10 +12,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@rubyceng/common": "workspace:^",
     "@nestjs/common": "^11.1.11",
     "@nestjs/core": "^11.1.11",
     "@nestjs/platform-express": "^11.1.11",
+    "@rubyceng/common": "workspace:^",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2"
   },
