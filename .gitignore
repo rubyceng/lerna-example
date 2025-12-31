@@ -8,6 +8,8 @@ dist/
 coverage/
 *.log
 
+.npmrc
+
 # Nx cache and logs
 .nx/
 .nx
