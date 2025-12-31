@@ -1,6 +1,7 @@
 {
-  "name": "@lerna-example/admin",
+  "name": "@rubyceng/admin",
   "version": "0.0.1-alpha.0",
+  "private": true,
   "scripts": {
     "start": "nest start --watch",
     "build": "nest build",
@@ -11,7 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@lerna-example/common": "workspace:^",
+    "@rubyceng/common": "workspace:^",
     "@nestjs/common": "^11.1.11",
     "@nestjs/core": "^11.1.11",
     "@nestjs/platform-express": "^11.1.11",

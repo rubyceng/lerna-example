@@ -1,7 +1,9 @@
 {
-  "name": "@lerna-example/web",
+  "name": "@rubyceng/web",
   "version": "0.0.2-alpha.0",
   "main": "index.js",
+  "private": true,
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",

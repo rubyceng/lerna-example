@@ -1,10 +1,14 @@
 {
-  "name": "@lerna-example/common",
+  "name": "@rubyceng/common",
   "version": "0.0.1-alpha.0",
   "main": "libs/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [],
   "author": "",
