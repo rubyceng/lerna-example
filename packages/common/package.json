@@ -1,6 +1,6 @@
 {
   "name": "@rubyceng/common",
-  "version": "0.0.4-alpha.0",
+  "version": "0.0.5-alpha.0",
   "main": "libs/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "gitHead": "276398b2f794d8678ebc8472e71d3d22d89355e6"
 }
