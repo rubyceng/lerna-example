@@ -1,10 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "scripts": {
-    "build": "lerna run build",
-    "publish": "lerna publish from-git"
-  },
   "workspaces": [
     "packages/*"
   ],
